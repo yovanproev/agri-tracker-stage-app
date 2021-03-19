@@ -1,0 +1,12 @@
+.app {
+  margin: auto;
+  font-family: "Rajdhani", sans-serif;
+  background-image: url(./Assets/farming.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  min-height: 120vh;
+  padding-bottom: 40px;
+}

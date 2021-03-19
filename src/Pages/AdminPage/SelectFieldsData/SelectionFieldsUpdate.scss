@@ -1,0 +1,33 @@
+.select-fields {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+  color: rgba(167, 226, 5, 0.699);
+}
+
+h4 {
+  font-style: italic;
+}
+
+$size: 45px;
+
+.table {
+  background: white;
+  text-align: center;
+}
+
+.image-section {
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  width: 90%;
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .select-field-button {
+    margin-top: 15px;
+  }
+}

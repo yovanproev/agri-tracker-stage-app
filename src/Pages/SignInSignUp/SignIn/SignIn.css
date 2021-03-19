@@ -1,0 +1,25 @@
+.sign-in {
+  width: 50%;
+  margin: 11px auto;
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  .sign-in {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}

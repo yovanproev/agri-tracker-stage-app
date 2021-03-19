@@ -1,0 +1,44 @@
+.margin-left {
+  margin-left: 0;
+}
+
+.all-others {
+  white-space: nowrap;
+}
+
+.home-table {
+  margin: auto;
+}
+
+.buttons-in-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons1 {
+  display: contents;
+}
+
+.page-columns {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.outputTable {
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .outputTable {
+    display: flex;
+    flex: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .second-button {
+    margin: 10px 0;
+  }
+}

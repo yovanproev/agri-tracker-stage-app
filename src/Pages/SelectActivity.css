@@ -1,0 +1,16 @@
+.table-reports {
+  text-align: center;
+}
+
+.headline {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+@media screen and (min-width: 760px) {
+  .headline {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.select-div {
+  width: 50vw;
+  margin: 0 10px;
+  margin-top: 20px;
+  height: calc(1em + 0.75rem + 2px);
+}
+
+@media screen and (min-width: 700px) {
+  .select-div {
+    width: 300px;
+  }
+}
+
+/* @media screen and (max-height: 520px) {
+  .select-div {
+    height: 6vh;
+  }
+}
+
+@media screen and (max-height: 300px) {
+  .select-div {
+    height: 11vh;
+  }
+} */
+
+.select-picture {
+  width: 20%;
+  margin-top: 10px;
+}

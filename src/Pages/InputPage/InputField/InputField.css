@@ -1,0 +1,38 @@
+input {
+  /* margin: auto; */
+  width: 35%;
+  height: 7%;
+}
+
+.input-div {
+  margin: auto;
+  width: 60%;
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.input-div p {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  input {
+    width: 90%;
+  }
+  .input-div {
+    margin-top: 15px;
+  }
+}
+
+/* @media screen and (max-height: 520px) {
+  input {
+    height: 6vh;
+  }
+}
+
+@media screen and (max-height: 300px) {
+  input {
+    height: 10vh;
+  }
+} */

@@ -1,0 +1,17 @@
+.input-forms {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.pic {
+  background-position: center;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 100px;
+}
+
+.full-div {
+  margin: auto 20px;
+  background-color: white;
+}
