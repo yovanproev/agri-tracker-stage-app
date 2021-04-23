@@ -25,22 +25,11 @@ const emailSentForNewChildCreated = (purchaseRequest) => {
     operator: purchaseRequest.operator
   }) 
  
-  const serviceIdProd = "service_vf4sxdn";
-  const templateIdProd = "template_o3ktl4q"
-  const userIdProd = "user_lrqjAHvBjKfTMe8w7qCdJ"
-
   const serviceIdDev = "service_73nupzv";
   const templateIdDev = "template_kdyzirc"
   const userIdDev = "user_lRQqXCJsRmCA8Wc2Ujn4d"
 
-  const serviceId = process.env.NODE_ENV === 'production'
-  ? serviceIdProd : serviceIdDev
-  const templateId = process.env.NODE_ENV === 'production'
-  ? templateIdProd : templateIdDev
-  const userId = process.env.NODE_ENV === 'production'
-  ? userIdProd : userIdDev
-
-  emailjs.send(serviceId, templateId, finalObjectToSend[0], userId)
+  emailjs.send(serviceIdDev, templateIdDev, finalObjectToSend[0], userIdDev)
   .then((result) => {
     // console.log(result.status)
   }, (error) => {

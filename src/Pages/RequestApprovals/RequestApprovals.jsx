@@ -46,23 +46,12 @@ const RequestApprovals = (props) => {
       operator: initialObject[0].operator
     }) 
     
-    const serviceIdProd = "service_vf4sxdn";
-    const templateIdProd = "template_47ode22"
-    const userIdProd = "user_lrqjAHvBjKfTMe8w7qCdJ"
-
     const serviceIdDev = "service_73nupzv";
     const templateIdDev = "template_y9rfmaw"
     const userIdDev = "user_lRQqXCJsRmCA8Wc2Ujn4d"
 
-    const serviceId = process.env.NODE_ENV === 'production'
-    ? serviceIdProd : serviceIdDev
-    const templateId = process.env.NODE_ENV === 'production'
-    ? templateIdProd : templateIdDev
-    const userId = process.env.NODE_ENV === 'production'
-    ? userIdProd : userIdDev
-
     if (finalObjectToSend) {
-        emailjs.send(serviceId, templateId, finalObjectToSend[0], userId)
+        emailjs.send(serviceIdDev, templateIdDev, finalObjectToSend[0], userIdDev)
         .then((result) => {}
         
         , (error) => { })

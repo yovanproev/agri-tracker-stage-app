@@ -44,19 +44,21 @@ export async function updateSelectFieldsInFirestore(selectField, newEntry, newSu
       arr.push(tableData)
     })
   const lastId = Math.max(...arr)
+  const noLastId = lastId === -Infinity ?
+  parseInt(0) : lastId
 
   const category = selectField === 5 ? 
-  {id: lastId + parseInt(1),
+  {id: noLastId + parseInt(1),
   name: newEntry,
   typeOfWorker: newSubCategory} : 
 
   selectField === 12 || selectField === 14 ? 
-   {id: lastId + parseInt(1),
+   {id: noLastId + parseInt(1),
     name: newEntry,
     costCenter: newSubCategory} : 
 
     selectField !== 12 && selectField !== 5 && selectField !== 14 ? 
-   {id: lastId + parseInt(1),
+   {id: noLastId + parseInt(1),
     name: newEntry} : null
 
   selectionField.doc().set({

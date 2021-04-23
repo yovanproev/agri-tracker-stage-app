@@ -108,6 +108,9 @@ class InputSelection extends Component {
           stopComponentDidUpdate: prevState.stopComponentDidUpdate,
         });
       });
+      getLastId(this.props).then((res, rej) => {
+        this.setState({ lastId: res + parseInt(1), error: rej });
+      }).catch(err => console.log(err));
     }
   }
 

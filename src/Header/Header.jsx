@@ -32,7 +32,7 @@ const Header = ({ stateProps, inputMode, outputMode, adminMode, homeMode,
         alt="Logo_image" width="100px" height="80px">
         </img>}
 
-      <h2 className={stateProps.logOutError ? "time-out-your-company"  : "your-company"}>Your Company Name</h2>
+      <h2 className={stateProps.logOutError ? "time-out-your-company"  : "your-company"}>Your Comp.</h2>
       <div className="menu-wrap">
         {stateProps.currentUser ?  
           <input type="checkbox" className="toggler" checked={toggle} onChange={toggleHandler}/> : null }
