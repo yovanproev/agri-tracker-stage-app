@@ -1,0 +1,116 @@
+$animation1: back 1s infinite;
+$animation2: color 1200ms infinite;
+
+.contain {
+  margin: 30px auto;
+  display: flex;
+}
+
+.grapes1 .circ1 {
+  transform: translateY(50px);
+  animation: back 1s infinite;
+}
+
+.grapes1 .circ2 {
+  transform: translateY(30px);
+  animation: $animation1;
+}
+
+.grapes1 .circ3 {
+  transform: translateY(20px) translateX(-40px);
+  animation: $animation1;
+}
+
+.grapes1 .circ4 {
+  transform: translateX(-20px) translateY(-60px);
+  animation: $animation1;
+}
+
+.grapes1 .circ5 {
+  transform: translateX(50px) translateY(10px);
+  animation: $animation1;
+}
+
+.grapes1 .circ6 {
+  transform: translateX(40px) translateY(60px);
+  animation: $animation1;
+}
+
+.grapes1 .circ7 {
+  transform: translateX(10px) translateY(40px);
+  animation: $animation1;
+}
+
+.grapes1 .circ8 {
+  transform: translateX(-30px) translateY(50px);
+  animation: $animation1;
+}
+
+.grapes1 .circ9 {
+  transform: translateX(50px) translateY(40px);
+  animation: $animation1;
+}
+
+.grapes1 .circ10 {
+  transform: translateX(-20px) translateY(20px);
+  animation: $animation1;
+}
+
+.grapes1 .circ11 {
+  transform: translateX(-20px) translateY(-40px);
+  animation: $animation1;
+}
+
+.grapes1 .circ12 {
+  transform: translateX(-40px) translateY(-60px);
+  animation: $animation1;
+}
+
+.grapes1 .circ13 {
+  transform: translateX(40px) translateY(-80px);
+  animation: $animation1;
+}
+
+@keyframes back {
+  45% {
+    transform: translateY(0);
+    fill: #6252ba;
+    stroke-width: 4px;
+    stroke-dasharray: 8px;
+    stroke-linecap: round;
+    stroke: #0d4ab5;
+  }
+  55% {
+    transform: translateY(0);
+    fill: #6252ba;
+    stroke-width: 2px;
+    stroke-dasharray: 4px;
+    stroke-linecap: round;
+    stroke: #3826a3;
+  }
+}
+
+@keyframes color {
+  to {
+    fill: purple;
+  }
+}
+
+.st0 {
+  fill: #6d4838;
+}
+.st1 {
+  fill: #09594d;
+}
+.st2 {
+  fill: #2d704e;
+}
+.st3 {
+  fill: #5d73d8;
+}
+.st4 {
+  fill: #3661bf;
+}
+.st5 {
+  fill: #778ee0;
+}

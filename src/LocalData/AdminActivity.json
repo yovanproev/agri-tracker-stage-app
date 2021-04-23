@@ -1,0 +1,10 @@
+{
+  "data" : [
+    { "name": "Users Management"},
+    { "name": "Fuel Management"},
+    { "name": "Machine Management"},
+    { "name": "Maintenance and Repair Management"},
+    { "name": "Working Hours Registration Management"},
+    { "name": "Add selection Fields"}
+  ]
+}

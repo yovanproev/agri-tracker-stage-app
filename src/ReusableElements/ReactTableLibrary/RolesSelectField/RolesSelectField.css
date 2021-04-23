@@ -1,0 +1,17 @@
+.roles-select-div {
+  width: 35vw;
+  margin: auto;
+  height: calc(1em + 0.75rem + 2px);
+}
+
+@media screen and (min-width: 760px) {
+  .roles-select-div {
+    width: 170px;
+  }
+}
+
+@media screen and (max-height: 520px) {
+  .roles-select-div {
+    height: 6vh;
+  }
+}

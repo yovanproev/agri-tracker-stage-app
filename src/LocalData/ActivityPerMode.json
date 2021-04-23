@@ -1,0 +1,9 @@
+{
+  "data" : [
+    { "name": "Fuel Registration"},
+    { "name": "Machine Registration"},
+    { "name": "Maintenance and Repair"},
+    { "name": "Working Hours Registration"},
+    { "name": "Purchase Requests"}
+  ]
+}

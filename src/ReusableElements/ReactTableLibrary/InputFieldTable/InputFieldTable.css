@@ -1,0 +1,12 @@
+.text-input-reports {
+  width: 10vw;
+  margin: 10px 10px;
+  height: calc(1em + 0.75rem + 2px);
+  vertical-align: baseline;
+}
+
+@media screen and (max-width: 501px) {
+  .text-input-reports {
+    width: 30vw;
+  }
+}

@@ -1,0 +1,11 @@
+.select-div-table {
+  width: 35vw;
+  margin: 10px 10px;
+  height: calc(1em + 0.75rem + 2px);
+}
+
+@media screen and (min-width: 700px) {
+  .select-div-table {
+    width: 10vw;
+  }
+}
